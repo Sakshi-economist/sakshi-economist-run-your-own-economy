@@ -23,7 +23,7 @@ warnings.filterwarnings("ignore")
 # Configuration
 # ---------------------------
 st.set_page_config(page_title="Run Your Own Economy", layout="wide")
-DEFAULT_DATA_PATH = r"C:\Users\HP\Downloads\Final_Macro_Dataset_with_Deficit_and_Trade.xlsx"
+DEFAULT_DATA_PATH = "Final_Macro_Dataset_with_Deficit_and_Trade.xlsx"
 
 st.title("Run Your Own Economy — Policy Simulator & Forecasting")
 st.write("This app automatically loads the bundled dataset; no upload required.")
@@ -291,3 +291,4 @@ with tab2:
 # ---------------------------
 st.markdown("---")
 st.caption("Notes: This is an educational policy simulator. VAR IRFs are linear impulse-response approximations. For production-grade simulation add diagnostics, exogenous controls, and richer data transformations.")
+
